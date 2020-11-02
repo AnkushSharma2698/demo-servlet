@@ -28,11 +28,4 @@ public class CustomFilter implements Filter {
  
         chain.doFilter(request, response);
     }
- 
-    public void init(FilterConfig filterConfiguration) throws ServletException {
-        this.filterConfig = filterConfiguration;
-    }
- 
-    public void destroy() {
-    }
 }
